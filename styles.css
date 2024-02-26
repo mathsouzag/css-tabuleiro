@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.tabuleiro {
+    display: grid;
+    grid-template-columns: repeat(8, 80px);
+    grid-template-rows: repeat(8, 80px);
+    gap: 0px;
+    border: 1px solid black;
+    width: fit-content;
+    font-size: 60px;
+    text-align: center;
+}
+
+.tabuleiro div {
+    border: 1px solid #000000;
+}
+
+.quadrado-branco {
+    background-color: #ffffff;
+}
+
+.quadrado-cinza {
+    background-color: #cccccc;
+}
